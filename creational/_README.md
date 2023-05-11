@@ -1,5 +1,3 @@
-## Design Patterns Practice in Python
-
 ### Factory
 We want a burger but we don't want to worry about getting all the ingredients and putting them together.
 So instead we just order a burger at a drive-in.
