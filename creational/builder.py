@@ -42,7 +42,7 @@ burger = BurgerBuilder() \
             .addCheese("swiss cheese") \
             .build()
 
-print(burger.__dict__)
+print(burger.__dict__)  #{'buns': 'sesame', 'patty': 'fish-patty', 'cheese': 'swiss cheese'}
 
 
       

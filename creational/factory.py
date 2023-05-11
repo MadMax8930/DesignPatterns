@@ -23,6 +23,6 @@ class BurgerFactory:
    
    
 burgerFactory = BurgerFactory()
-burgerFactory.createCheeseBurger().order()
-burgerFactory.createBigMacBurger().order()
-burgerFactory.createVeganBurger().order()
+burgerFactory.createCheeseBurger().order()  #['bun', 'cheese', 'beef-patty']
+burgerFactory.createBigMacBurger().order()  #['bun', 'tomato', 'lettuce', 'cheese', 'beef-patty']
+burgerFactory.createVeganBurger().order()   #['bun', 'lettuce', 'veggie-patty']
